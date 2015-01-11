@@ -1,0 +1,79 @@
+/*
+Theme Name: Tedrick
+Theme URI: http://www.tederick.com
+Author: Andrew Robinson
+Author URI: http://gmanreviews.com
+Description: A theme I made for my friend Matt Brown.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: tederick
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body {
+
+}
+
+.clear{
+    float:left;
+    clear:both;
+}
+
+#content {
+    margin-left:17.5%;
+    margin-right:17.5%;
+    width:65%;
+    margin-top:10%;
+}
+
+#main-content{
+    background-color: #98cb3a;
+    height:200px;
+    width:100%;
+}
+
+#header{
+    width:100%;
+    height:10%;
+}
+
+#header span {
+    color:#98cb3a;
+    font-size:2.5em;
+    font-family: verdana;
+    position:relative;
+    top:50px;
+}
+
+#header img{
+    height:100px;
+}
+
+#header span, #header img,
+.social-icon, #pages, #pages span{
+    float:left;
+}
+
+.social-icon img {
+    height:50px;
+}
+
+#social{
+    margin-top:2%;
+    height:50px;
+}
+
+.social-icon{
+    margin-right:15px;
+}
+#pages{
+}
+
+#header, #social{
+    margin-left:20%;
+}
