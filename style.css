@@ -16,19 +16,23 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 body {
-
+    width:100%;
 }
 
 .clear{
     float:left;
     clear:both;
+    display:block;
 }
 
 #content {
+    /*
+    margin-top:10%;
     margin-left:17.5%;
     margin-right:17.5%;
+    */
     width:65%;
-    margin-top:10%;
+    margin: 0 auto;
 }
 
 #main-content{
@@ -40,6 +44,7 @@ body {
 #header{
     width:100%;
     height:10%;
+    margin: 0 auto;
 }
 
 #header span {
@@ -71,9 +76,12 @@ body {
 .social-icon{
     margin-right:15px;
 }
-#pages{
-}
 
 #header, #social{
-    margin-left:20%;
+    /*margin-left:20%;*/
+}
+
+#pages span {
+    margin-top:10%;
+    font-size: 1.5em;
 }
