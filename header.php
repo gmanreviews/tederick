@@ -12,4 +12,5 @@
     <meta charset="UTF-8">
     <title>How To Convert HTML Template to WordPress Theme - WPExplorer</title>
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/index.css"/>
 </head>

@@ -36,8 +36,10 @@ body {
 }
 
 #main-content{
+    /*
     background-color: #98cb3a;
-    height:200px;
+    */
+    height:400px;
     width:100%;
 }
 
